@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{52918D3B-A81E-4B3D-9589-4C50B1F6DBD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D661B98B-BC9B-441A-B280-ACC355FE2A85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2025C671-6DEB-4067-BA04-8E2FF258EB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyTrainer.Web.Common", "Web\VocabularyTrainer.Web.Common\VocabularyTrainer.Web.Common.csproj", "{3EC0399B-6264-4533-8723-C809FB372723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyTrainer.Web.Api", "Web\VocabularyTrainer.Web.Api\VocabularyTrainer.Web.Api.csproj", "{1B622E65-83D5-49D8-8005-D7849096DF54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocabularyTrainer.Web.Logic", "Web\VocabularyTrainer.Web.Logic\VocabularyTrainer.Web.Logic.csproj", "{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC0399B-6264-4533-8723-C809FB372723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC0399B-6264-4533-8723-C809FB372723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC0399B-6264-4533-8723-C809FB372723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC0399B-6264-4533-8723-C809FB372723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B622E65-83D5-49D8-8005-D7849096DF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B622E65-83D5-49D8-8005-D7849096DF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B622E65-83D5-49D8-8005-D7849096DF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B622E65-83D5-49D8-8005-D7849096DF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EC0399B-6264-4533-8723-C809FB372723} = {D661B98B-BC9B-441A-B280-ACC355FE2A85}
+		{1B622E65-83D5-49D8-8005-D7849096DF54} = {D661B98B-BC9B-441A-B280-ACC355FE2A85}
+		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200} = {D661B98B-BC9B-441A-B280-ACC355FE2A85}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B163203-53A7-48C8-BADC-D5639ABD5470}
+	EndGlobalSection
+EndGlobal
