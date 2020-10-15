@@ -11,5 +11,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VocabularyTrainer.Web.Common\VocabularyTrainer.Web.Common.csproj" />
+    <ProjectReference Include="..\VocabularyTrainer.Web.Logic\VocabularyTrainer.Web.Logic.csproj" />
+  </ItemGroup>
+
 
 </Project>

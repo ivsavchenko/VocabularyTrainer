@@ -9,11 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D661B98B-BC9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2025C671-6DEB-4067-BA04-8E2FF258EB72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyTrainer.Web.Common", "Web\VocabularyTrainer.Web.Common\VocabularyTrainer.Web.Common.csproj", "{3EC0399B-6264-4533-8723-C809FB372723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocabularyTrainer.Web.Common", "Web\VocabularyTrainer.Web.Common\VocabularyTrainer.Web.Common.csproj", "{3EC0399B-6264-4533-8723-C809FB372723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyTrainer.Web.Api", "Web\VocabularyTrainer.Web.Api\VocabularyTrainer.Web.Api.csproj", "{1B622E65-83D5-49D8-8005-D7849096DF54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocabularyTrainer.Web.Api", "Web\VocabularyTrainer.Web.Api\VocabularyTrainer.Web.Api.csproj", "{1B622E65-83D5-49D8-8005-D7849096DF54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocabularyTrainer.Web.Logic", "Web\VocabularyTrainer.Web.Logic\VocabularyTrainer.Web.Logic.csproj", "{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyTrainer.Common", "Common\VocabularyTrainer.Common\VocabularyTrainer.Common.csproj", "{428E6DA9-F189-4175-A2FC-A801F65D587E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabularyTrainer.Common.Logic", "Common\VocabularyTrainer.Common.Logic\VocabularyTrainer.Common.Logic.csproj", "{3CC93356-0947-4E70-B873-51BE5E8DD03E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocabularyTrainer.Data.Cosmos", "Data\VocabularyTrainer.Data.Cosmos\VocabularyTrainer.Data.Cosmos.csproj", "{577381C2-0CBF-4CC6-A739-C43EED59CC99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428E6DA9-F189-4175-A2FC-A801F65D587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428E6DA9-F189-4175-A2FC-A801F65D587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428E6DA9-F189-4175-A2FC-A801F65D587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428E6DA9-F189-4175-A2FC-A801F65D587E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC93356-0947-4E70-B873-51BE5E8DD03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC93356-0947-4E70-B873-51BE5E8DD03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC93356-0947-4E70-B873-51BE5E8DD03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC93356-0947-4E70-B873-51BE5E8DD03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577381C2-0CBF-4CC6-A739-C43EED59CC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577381C2-0CBF-4CC6-A739-C43EED59CC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577381C2-0CBF-4CC6-A739-C43EED59CC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577381C2-0CBF-4CC6-A739-C43EED59CC99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +59,9 @@ Global
 		{3EC0399B-6264-4533-8723-C809FB372723} = {D661B98B-BC9B-441A-B280-ACC355FE2A85}
 		{1B622E65-83D5-49D8-8005-D7849096DF54} = {D661B98B-BC9B-441A-B280-ACC355FE2A85}
 		{71B0F25A-32A3-42FD-B5C5-9E0B80C8B200} = {D661B98B-BC9B-441A-B280-ACC355FE2A85}
+		{428E6DA9-F189-4175-A2FC-A801F65D587E} = {2025C671-6DEB-4067-BA04-8E2FF258EB72}
+		{3CC93356-0947-4E70-B873-51BE5E8DD03E} = {2025C671-6DEB-4067-BA04-8E2FF258EB72}
+		{577381C2-0CBF-4CC6-A739-C43EED59CC99} = {52918D3B-A81E-4B3D-9589-4C50B1F6DBD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B163203-53A7-48C8-BADC-D5639ABD5470}
